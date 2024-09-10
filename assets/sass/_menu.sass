@@ -1,0 +1,93 @@
+.menu
+    background: #5E5E5E
+    width: 300px
+    height: 812px
+    position: fixed
+    z-index: 1000
+    // transition: transform 0.3s ease
+    top: 0
+    right: -100%
+    // transform: translateX(-100%)
+    transition: all 1s ease
+    // opacity: 0
+    // transform: translateX(0)
+    
+.menu-header
+    padding: 20px 21px
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+.header-logo
+
+.menu__header-btn
+    button
+        top: 21px
+        left: 20px
+        padding: 10px 15px 10px 15px
+        border-radius: 6px
+        opacity: 0px
+        background: #717171
+        border: none
+        cursor: pointer
+
+.menu-main
+    padding: 20px 21px
+    ul
+        display: flex
+        flex-direction: column
+        gap: 20px
+        li
+            #menu__main-one
+                color: #fff
+            a
+                font-weight: 400
+                font-size: 16px
+                line-height: 21.79px
+                color: #d6d6d6
+
+.menu__main-footer
+    margin-top: 40px
+    display: flex
+    align-items: center
+    justify-content: center
+.watches__more-delivery
+    padding: 10px 30px 10px 30px
+    border-radius: 8px
+    background: #e59046
+    border: 1px solid #e59046
+    color: #fff
+    font-size: 14px
+    font-weight: 600
+    line-height: 19.07px
+    transition: all .3s ease
+    color: #fff
+    cursor: pointer
+
+// 
+.watches__more-delivery:hover 
+    background: #534f4f
+    border: 1px solid #534f4f
+
+.menu-footer
+    padding-top: 150px
+    // margin-top: 312px
+    padding-left: 20px
+    padding-bottom: 20px
+    .header-socials 
+        display: flex
+        justify-content: left
+        .header__socials-wrapper 
+            width: 40px
+            height: 40px
+            border-radius: 50%
+            display: flex
+            justify-content: center
+            align-items: center
+            background: #717171
+            cursor: pointer
+// 
+
+.active-menu
+    right: 0 
+    transition: all 0.3s ease

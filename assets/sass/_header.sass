@@ -1,0 +1,85 @@
+.header
+    background: linear-gradient(#5D5D5D 100%, #040404 100%)
+    padding: 27px 0
+    border-bottom: 1px solid #505050
+
+    &-phone
+
+        background: #4A4A4A
+        padding: 10px 15px 10px 15px
+        display: flex
+        align-items: center
+        gap: 12px
+        border-radius: 8px
+        cursor: pointer
+        span
+            display: block
+            color: #D6D6D6
+    &-socials
+        display: flex
+        align-items: center
+        justify-content: center
+        gap: 10px
+        .header-wrap
+            background-color: #4A4A4A
+            border-radius: 50%
+            width: 44px
+            height: 44px
+            display: flex
+            align-items: center
+            justify-content: center
+
+            svg
+                transition: all .3s ease
+                cursor: pointer
+                // &:hover
+                //     svg 
+                //         path
+                //              #fff
+                //         fill
+                //              #fff
+
+    .header-menu__list
+        display: flex
+        align-items: center
+        gap: 30px
+        .header-menu__link
+            color: #D6D6D6
+    .container
+        display: flex
+        align-items: center
+        justify-content: space-between
+
+    .header-media
+        background: #4A4A4A
+        padding: 10px 15px 10px 15px
+        display: flex
+        align-items: center
+        gap: 12px
+        border-radius: 8px
+        button
+            cursor: pointer
+            border: none
+            background: none
+            display: inline-flex
+.media-wrap
+    display: flex
+    gap: 10px
+    // display: none
+    .header-media
+        display: none
+
+@media screen and (max-width: 1184px)
+    .header-menu
+        display: none
+    // .media-wrap
+        // .header-media
+            // display: block
+    
+
+// @media screen and (max-width:1065px)
+// .header 
+//     .header-menu 
+//         display: none    
+//     .header-socials 
+//         display: none

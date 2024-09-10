@@ -1,0 +1,107 @@
+.products
+    background: #0E0E0E
+    padding-top: 40px
+    padding-bottom: 80px
+    h4
+        font-weight: 500
+        font-size: 40px
+        line-height: 48px
+        color: #fff
+        padding-bottom: 40px
+// .container
+
+.products-wrapper
+    display: flex
+    gap: 10px
+.product__card-wrapper
+    display: flex
+    flex-direction: column
+    gap: 20px
+    padding: 30px 30px
+.product-card
+    border: 1px solid #242424
+    border-radius: 12px
+    transition: all .3s ease
+    &:hover 
+        border: 1px solid #e59046
+    .card-image
+        background: #272727
+        border-radius: 12px
+        img
+            margin: 10px 10px
+    h6
+        font-weight: 500
+        font-size: 24px
+        line-height: 28.8px
+        // text-align: center
+        color: #fff
+// .watches__left-price
+
+// .watches__left-uzs
+
+#card-one
+    // border: 1px solid #E59046
+    border-radius: 16px
+
+@media screen and (max-width:1340px)
+    .products-wrapper
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+        justify-content: center
+        gap: 10px
+
+@media screen and (max-width:611px)
+    .products-wrapper
+        display: flex
+        flex-wrap: nowrap
+        overflow: auto
+        &::-webkit-scrollbar
+            display: none
+        .product-card
+            .product__card-wrapper
+                // .card-image 
+                    // height: 200px
+
+            // width:400px
+            // height: 600px
+            .watches__left-price
+                margin-top: 0
+                // gap: 0
+
+@media screen and (max-width:483px)
+    .products-wrapper
+        display: flex
+        flex-wrap: nowrap
+        overflow: auto
+        &::-webkit-scrollbar
+            display: none
+        .product-card
+            // width: 163px
+            .product__card-wrapper
+
+                width: 300px
+                // max-width: 400px
+                .card-image
+                    width: 100%
+                    max-width: 300px
+                    height: 200px
+                    img
+                        width: 99%
+                        height: 92%
+                        object-fit: contain
+            h6
+                font-weight: 500
+                font-size: 16px
+                line-height: 28.8px
+                color: #fff
+
+            // width:400px
+            // height: 600px
+            .watches__left-price
+                margin-top: 0
+                span 
+                    font-size: 15px
+                // gap: 0
+    .services 
+        top: 20px

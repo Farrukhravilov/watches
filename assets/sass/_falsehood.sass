@@ -1,0 +1,117 @@
+.falsehood
+    background: linear-gradient(#0E0E0E 100%, #040404 100%)
+    .falsehood-wrap
+        display: flex
+        gap: 22px
+        padding-bottom: 45px
+        .falsehood-left
+            display: flex
+            flex-direction: column
+            background: #1C1C1C
+            margin-top: 44px
+            border-radius: 12px
+            form
+                padding: 40px 40px
+            .falsehood-inp
+                display: flex
+                flex-direction: column
+                span
+                    font-weight: 400
+                    font-size: 16px
+                    line-height: 21.79px
+                    color: #f7f8f8
+                    margin-top: 20px
+                    margin-bottom: 20px
+                input
+                    font-weight: 400
+                    font-size: 16px
+                    line-height: 21.7px
+                    padding: 21px 15px
+                    border-radius: 12px
+                    border: none
+                    outline: none
+                    color: #b4bcd0
+                    background: #202020
+            p
+                font-weight: 400
+                font-size: 20px
+                line-height: 27.24px
+                color: #fff
+                width: 100%
+                max-width: 530px
+            button
+                margin-top: 30px
+                font-weight: 600
+                font-size: 16px
+                line-height: 21.79px
+                color: #fff
+                padding: 14px 30px 14px 30px
+                border-radius: 8px
+                border: 1px solid #e59046
+                background: #e59046
+                width: 100%
+                cursor: pointer
+                transition: all .3s ease
+                &:hover 
+                    background: #534f4f
+                    border: 1px solid #534f4f
+         
+            // color: #534f4f
+
+            // color: #534f4f
+        .falsehood-right
+            margin-top: 44px
+            width: 50%
+            height: auto
+            img
+                borde-radius: 12px
+    h4
+        font-size: 40px
+        font-weight: 500
+        line-height: 48px
+        color: #fff
+
+
+// 
+
+@media screen and (max-width: 1040px)
+    .falsehood 
+        .falsehood-wrap 
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            .falsehood-right 
+                    width: 65%
+                    height: 400px !important
+                    
+
+
+// 
+@media screen and (max-width: 824px)
+    .falsehood 
+        .falsehood-wrap 
+            .falsehood-right 
+                width: 100%
+                height: 100%
+                iframe 
+                    width: 100% !important
+                    height: 100% !important
+
+@media screen and (max-width: 425px)
+    .falsehood
+        h4 
+            font-size: 24px
+        .falsehood-wrap 
+            .falsehood-left 
+                form 
+                    padding: 14px 24px
+                    p
+                        font-size: 16px
+                        width: 100%
+                        max-width: 295px
+                    .falsehood-inp 
+                        span 
+                            font-size: 14px
+                        input 
+                            font-size: 14px

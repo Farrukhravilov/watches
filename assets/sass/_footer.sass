@@ -1,0 +1,75 @@
+.footer
+    background: linear-gradient(#232323 100%, #232323 100%)
+    padding: 27px 0
+    .footer-top
+        display: flex
+        align-items: center
+        justify-content: space-between
+        border-bottom: 1px solid #505050
+        padding-bottom: 40px
+        width: 100%
+    p
+        font-weight: 400
+        font-size: 16px
+        line-height: 21.79px
+        color: #fff
+        margin-top: 20px
+        text-align: center
+
+    &-phone
+        background: #4A4A4A
+        padding: 10px 15px 10px 15px
+        display: flex
+        align-items: center
+        gap: 12px
+        span
+            color: #D6D6D6
+    &-socials
+        display: flex
+        align-items: center
+        justify-content: center
+        gap: 10px
+        .header-wrap
+            background-color: #4A4A4A
+            border-radius: 50%
+            width: 44px
+            height: 44px
+            display: flex
+            align-items: center
+            justify-content: center
+    .header-menu__list
+        display: flex
+        align-items: center
+        gap: 30px
+        .header-menu__link
+            color: #D6D6D6
+    // .container
+    //     display: flex
+    //     align-items: center
+    //     justify-content: space-between
+
+
+@media screen and (max-width:1184px)
+    .footer 
+        .footer-top
+            display: flex
+            flex-direction: column
+            gap:30px
+            .header-menu 
+                display: block
+
+
+// 
+@media screen and (max-width:685px)
+    .footer
+        .footer-top
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+            .header-menu 
+                .header-menu__list 
+                    display: flex
+                    flex-direction: column
+                    align-items: flex-start
+
+                    
