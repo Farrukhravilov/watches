@@ -181,7 +181,7 @@
             <h5>Nima uchun bizni tanlashingiz kerak?</h5>
             <div class="choose-wrap" id="chose">
               <div class="choose__wrap-card">
-                <img src="@/assets/images/svg/login.svg" alt="login" />
+                <img src="@/assets/images/svg/Login.svg" alt="login" />
                 <h6>Individual</h6>
                 <p>
                   Xarid qilgan soatingizga ism yoki logotipingizni tushirib
